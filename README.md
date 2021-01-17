@@ -9,14 +9,11 @@ but if you don't wanna download you can just copy this into https://repl.it/lang
 from random import choice
 
 weaponslotlist = []
-rocketlist = ['Rocket Launcher', 'Scope Shot', 'Starblaster', 'Shadow Dragon', 'Hoss Hog', 'Arm Cannon', 'Rock Star',
-              'Laser Cannon', 'Crystal Blaster']
+rocketlist = ['Rocket Launcher', 'Scope Shot', 'Starblaster', 'Shadow Dragon', 'Hoss Hog', 'Arm Cannon', 'Rock Star','Laser Cannon', 'Crystal Blaster']
 swordlist = ["normal", "fire", "bigboi", "homerunner", 'tennis', 'brick', "vox", "pan", "ice", "shadow", "heart"]
 bomblist = ['Bomb', 'Square Bomb', 'Remote Detonator', 'Shadow Bomb', 'Sticky Bomb']
-balllist = ['Superball', 'Coconut', 'Boomerang', 'Hat-A-Rang', 'Lava Ball', 'Shadow Shuriken', 'Snowball',
-            'Paintball Gun', 'Slingshot', 'Bow']
-trowellist = ['Trowel', 'Truss Trowel', 'Spike Trowel', 'Bridge Trowel', 'Ball Turret', 'Cage Trowel', 'Shadow Clone',
-              'Trampoline Trowel']
+balllist = ['Superball', 'Coconut', 'Boomerang', 'Hat-A-Rang', 'Lava Ball', 'Shadow Shuriken', 'Snowball','Paintball Gun', 'Slingshot', 'Bow']
+trowellist = ['Trowel', 'Truss Trowel', 'Spike Trowel', 'Bridge Trowel', 'Ball Turret', 'Cage Trowel', 'Shadow Clone','Trampoline Trowel']
 extraeventlist = ['bombonly', 'rocketonly', 'nosword', 'notrowel+ball', 'nowalking', "don'ttakedamage"]
 lolhaha = ["weapon", 'bomb', 'sword', 'ball', 'trowel']
 for i in range(1, 6):
