@@ -12,7 +12,7 @@ balllist = ['Superball', 'Coconut', 'Boomerang', 'Hat-A-Rang', 'Lava Ball', 'Sha
             'Paintball Gun', 'Slingshot', 'Bow']
 trowellist = ['Trowel', 'Truss Trowel', 'Spike Trowel', 'Bridge Trowel', 'Ball Turret', 'Cage Trowel', 'Shadow Clone',
               'Trampoline Trowel']
-extraeventlist = ['bombonly', 'rocketonly', 'nosword', 'notrowel+ball', 'nowalking', "don'ttakedamage"]
+extraeventlist = ['bombonly', 'rocketonly', 'nosword', 'notrowel+ball', 'nowalking', "don'ttakedamage","normal"]
 lolhaha = ["rocket", 'bomb', 'sword', 'ball', 'trowel']
 wincondition = ['get 5 kills','win a game','get brick mvp']
 for i in range(1, 6):
