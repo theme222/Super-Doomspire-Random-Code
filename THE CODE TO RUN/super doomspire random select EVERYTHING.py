@@ -14,6 +14,7 @@ trowellist = ['Trowel', 'Truss Trowel', 'Spike Trowel', 'Bridge Trowel', 'Ball T
               'Trampoline Trowel']
 extraeventlist = ['bombonly', 'rocketonly', 'nosword', 'notrowel+ball', 'nowalking', "don'ttakedamage"]
 lolhaha = ["rocket", 'bomb', 'sword', 'ball', 'trowel']
+wincondition = ['get 5 kills','win a game','get brick mvp']
 for i in range(1, 6):
     a = choice(lolhaha)
     lolhaha.remove(a)
@@ -25,3 +26,4 @@ print("rocket = ", choice(rocketlist))
 print("ball = ", choice(balllist))
 print("trowel = ", choice(trowellist))
 print("challenge = ",choice(extraeventlist))
+print("win condition = ",choice(wincondition))
