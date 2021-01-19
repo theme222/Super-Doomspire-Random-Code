@@ -1,5 +1,6 @@
 # bruhhhhhhhhh look just please credit me thanks 
 # maybe something along the lines of "made by theme" or something like that
+# https://github.com/theme222/Super-Doomspire-Random-Code
 from random import choice
 
 weaponslotlist = []
@@ -12,18 +13,21 @@ balllist = ['Superball', 'Coconut', 'Boomerang', 'Hat-A-Rang', 'Lava Ball', 'Sha
             'Paintball Gun', 'Slingshot', 'Bow']
 trowellist = ['Trowel', 'Truss Trowel', 'Spike Trowel', 'Bridge Trowel', 'Ball Turret', 'Cage Trowel', 'Shadow Clone',
               'Trampoline Trowel']
-extraeventlist = ['bombonly', 'rocketonly', 'nosword', 'notrowel+ball', 'nowalking', "don'ttakedamage","normal"]
+extraeventlist = ['bombonly', 'rocketonly', 'nosword', 'notrowel+ball', 'nowalking', "don'ttakedamage", 'normal',
+                  'normal', 'no bomb jumps or rocket jumps', 'normal']
 lolhaha = ["rocket", 'bomb', 'sword', 'ball', 'trowel']
-wincondition = ['get 5 kills','win a game','get brick mvp']
+wincondition = ['get 5 kills', 'win a game', 'get brick mvp']
+
 for i in range(1, 6):
     a = choice(lolhaha)
     lolhaha.remove(a)
     weaponslotlist.append(a)
+
 print(weaponslotlist)
 print("sword = ", choice(swordlist))
 print("bomb = ", choice(bomblist))
 print("rocket = ", choice(rocketlist))
 print("ball = ", choice(balllist))
 print("trowel = ", choice(trowellist))
-print("challenge = ",choice(extraeventlist))
-print("win condition = ",choice(wincondition))
+print("challenge = ", choice(extraeventlist))
+print("win condition = ", choice(wincondition))
