@@ -1,7 +1,7 @@
 # this is the easy one. Think it's easy? Try the pro one.
 # made by theme222
 # https://github.com/theme222/Super-Doomspire-Random-Code
-from random import choice
+from random import choice, randint
 
 weaponslotlist = []
 rocketlist = ['Rocket Launcher', 'Scope Shot', 'Starblaster', 'Shadow Dragon', 'Hoss Hog', 'Arm Cannon', 'Rock Star',
@@ -13,10 +13,10 @@ balllist = ['Superball', 'Coconut', 'Boomerang', 'Hat-A-Rang', 'Lava Ball', 'Sha
             'Paintball Gun', 'Slingshot', 'Bow']
 trowellist = ['Trowel', 'Truss Trowel', 'Spike Trowel', 'Bridge Trowel', 'Ball Turret', 'Cage Trowel', 'Shadow Clone',
               'Trampoline Trowel']
-extraeventlist = ['rocket only', 'no sword', 'no trowel+ball',  'normal',
+extraeventlist = ['rocket only', 'no sword', 'no trowel+ball', 'normal',
                   'normal', 'no bomb jumps or rocket jumps', 'normal']
 lolhaha = ["rocket", 'bomb', 'sword', 'ball', 'trowel']
-wincondition = ['get 5 kills', 'win a game', 'get more than 50 bricks', "don't die"]
+wincondition = ['get 5 kills', 'win a game', 'get more than {e} bricks'.format(randint(50, 80)), "don't die"]
 
 for i in range(1, 6):
     a = choice(lolhaha)
