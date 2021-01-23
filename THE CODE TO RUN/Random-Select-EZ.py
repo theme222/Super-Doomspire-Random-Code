@@ -16,7 +16,7 @@ trowellist = ['Trowel', 'Truss Trowel', 'Spike Trowel', 'Bridge Trowel', 'Ball T
 extraeventlist = ['rocket only', 'no sword', 'no trowel+ball', 'normal',
                   'normal', 'no bomb jumps or rocket jumps', 'normal']
 lolhaha = ["rocket", 'bomb', 'sword', 'ball', 'trowel']
-wincondition = ['get 5 kills', 'win a game', 'get more than {e} bricks'.format(randint(50, 80)), "don't die"]
+wincondition = ['get 5 kills', 'win a game', 'get more than {e} bricks'.format(e=randint(50, 80)), "don't die"]
 
 for i in range(1, 6):
     a = choice(lolhaha)
